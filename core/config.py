@@ -18,8 +18,8 @@ class Settings:
     PROJECT_NAME: str = "Squelette"
     PROJECT_VERSION: str = "0.0.0"
     # DATABASE_URL: str = "postgresql://postgres:root@localhost/ats_db"
-    DATABASE_URL: str = "postgresql://root:root@78.138.45.197/ats_db"
-    SECRET_KEY = "57ba26dbf9c8e8cea2bf296ad4d0f61933cacdf25d3ee606e77df0d0e3b0d860"
+    DATABASE_URL: str = "postgresql://root:root@localhost/ats_db"
+    SECRET_KEY = ""
     ALGORITHM = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES = minutes_left
     PWD_CONTEXT = pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
